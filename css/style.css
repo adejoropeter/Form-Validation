@@ -1,0 +1,149 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+html {
+      font-size: 10px;
+}
+
+body {
+      height: 100vh;
+      font-family: sans-serif;
+      background-color: hsl(0, 100%, 74%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url(../intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+main{
+      min-width: 200px;
+}
+#container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1000px;
+      height: 500px;
+}
+
+.left-side {
+      width: 50%;
+}
+
+.left-side h1 {
+      color: hsl(0, 0%, 100%);
+      font-size: 4rem;
+      width: 80%;
+      line-height: 4.5rem;
+      padding-bottom: 20px;
+      letter-spacing: 2px;
+}
+
+.left-side p {
+      color: hsl(247, 90%, 96%);
+      font-size: 1.5rem;
+      width: 85%;
+      line-height: 2rem;
+}
+
+.right-side {
+      width: 50%;
+      margin-left: 30px;
+}
+
+
+.right-side .p1 {
+      background-color: hsl(248, 32%, 49%);
+      margin-bottom: 20px;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 1.5rem;
+      color: hsl(246, 25%, 77%);
+      font-weight: 600;
+      box-shadow: 0px 6px 3px 1px rgba(0, 0, 0, 0.20);
+      border-radius: 10px;
+}
+
+.right-side .form-field {
+      background-color: hsl(0, 0%, 100%);
+      padding: 40px;
+      border-radius: 10px;
+}
+
+.input {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      position: relative;
+}
+
+input {
+      width: 100%;
+      height: 50px;
+      font-size: 2rem;
+      font-weight: 600;
+      padding: 10px;
+      outline: none;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      position: relative;
+      border: 2px solid hsl(246, 25%, 77%);
+}
+
+.image {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      /* display: none; */
+}
+
+.error-alert {
+      border: 2px solid red;
+}
+.success-alert {
+      border: 2px solid rgba(4, 158, 4, 0.705);
+}
+
+h3{
+      color: red;
+}
+
+.input input:focus {
+      border-color: hsl(248, 32%, 49%);
+}
+
+.form-field button {
+      width: 100%;
+      background-color: hsl(154, 59%, 51%);
+      outline: 0;
+      padding: 20px 10px;
+      border-radius: 15px;
+      color: hsl(0, 0%, 100%);
+      font-size: 1.5rem;
+      cursor: pointer;
+      text-transform: uppercase;
+      border: 1px solid hsl(154, 59%, 51%);
+}
+
+.right-side .p2 {
+      color: hsl(246, 25%, 77%);
+      font-size: 1.3rem;
+      margin: 10px 0px;
+      text-align: center;
+}
+
+.right-side .p2 span {
+      color: hsl(0, 100%, 74%);
+}
+
+/* Primary - Red: hsl(0, 100%, 74%)
+ - Green: hsl(154, 59%, 51%)
+  ### Accent - Blue: hsl(248, 32%, 49%)
+    Dark Blue: hsl(249, 10%, 26%) -
+     Grayish Blue: hsl(246, 25%, 77%) */
